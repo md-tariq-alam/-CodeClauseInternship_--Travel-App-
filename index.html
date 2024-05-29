@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Travel App</h1>
+    </header>
+    <main>
+        <section id="destinations">
+            <h2>Destinations</h2>
+            <ul id="destination-list"></ul>
+        </section>
+        <section id="attractions">
+            <h2>Attractions</h2>
+            <ul id="attraction-list"></ul>
+        </section>
+        <section id="activities">
+            <h2>Activities</h2>
+            <ul id="activity-list"></ul>
+        </section>
+        <section id="bookings">
+            <h2>Bookings</h2>
+            <form id="booking-form">
+                <label for="destination">Destination:</label>
+                <select id="destination"></select>
+                <label for="attraction">Attraction:</label>
+                <select id="attraction"></select>
+                <label for="date">Date:</label>
+                <input type="date" id="date">
+                <button type="submit">Book</button>
+            </form>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
